@@ -1,0 +1,31 @@
+{
+  "name": "react-native-bullet-graph",
+  "version": "0.0.1",
+  "description": "React Native package of Bullet Graph.",
+  "main": "./src/screens/SimpleBulletGraph/SimpleBulletGraph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  },
+  "keywords": [
+    "react native",
+    "react-native",
+    "chart",
+    "charts",
+    "graph",
+    "graphs",
+    "data visualization",
+    "bullet graph",
+    "bullet-graph",
+    "bullet chart",
+    "bullet-chart",
+    "stats",
+    "analysis",
+    "analytics"
+  ],
+  "author": "Vibhor <vibhorkshp7@gmail.com> https://www.npmjs.com/~devvibhor",
+  "license": "MIT"
+}
