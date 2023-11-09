@@ -1,8 +1,8 @@
 {
   "name": "react-native-bullet-graph",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native package of Bullet Graph.",
-  "main": "/src/screens/SimpleBulletGraph/SimpleBulletGraph.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
