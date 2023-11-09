@@ -1,7 +1,7 @@
 {
   "name": "react-native-bullet-graph",
-  "version": "0.0.5",
-  "description": "React Native package of Bullet Graph.",
+  "version": "0.0.6",
+  "description": "Customizable Bullet Graph component for React Native apps.",
   "main": "src/screens/SimpleBulletGraph/SimpleBulletGraph.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,9 @@
     "analysis",
     "analytics"
   ],
-  "author": "Vibhor <vibhorkshp7@gmail.com> https://www.npmjs.com/~devvibhor",
-  "license": "MIT"
+  "author": "Vibhor <vibhorkshp7@gmail.com> (https://www.npmjs.com/~devvibhor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevVibhor/react-native-bullet-graph/issues"
+  }
 }

@@ -1,8 +1,8 @@
 # react-native-bullet-graph
 
-Library for adding bullet graph in your React Native apps.
+Component for adding bullet graphs to your React Native apps.
 
-## Demo
+## Demo 📱
 
 <table>
   <tr>
