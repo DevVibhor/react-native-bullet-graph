@@ -1,9 +1,20 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  barStyle: {
-    height: 30,
+  mainBarStyle: {
     alignSelf: 'center',
+  },
+  barStyleLower: {
+    alignSelf: 'center',
+    left: 0,
+    position: 'absolute',
+    zIndex: 2,
+  },
+  barStyleMedium: {
+    alignSelf: 'center',
+    left: 0,
+    position: 'absolute',
+    zIndex: 1,
   },
   actualStyle: {
     alignSelf: 'flex-start',
@@ -12,7 +23,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   actualTextValue: {
-    textAlign: 'center',
+    fontSize: 16,
   },
   mainStyle: {
     width: '100%',
