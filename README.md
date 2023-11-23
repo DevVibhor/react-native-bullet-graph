@@ -2,11 +2,18 @@
 
 Add customizable bullet graphs to your React Native apps.
 
-## Demo 📱
+[![Stable Release](https://img.shields.io/npm/v/react-native-bullet-graph.svg)](https://www.npmjs.com/package/react-native-bullet-graph)
+[![npm](https://img.shields.io/npm/dm/react-native-bullet-graph.svg)](https://www.npmjs.com/package/react-native-bullet-graph)
+[![npm](https://img.shields.io/npm/v/react-native-macos?color=e80441&label=react-native-macos)](https://www.npmjs.com/package/react-native-macos)
+[![npm](https://img.shields.io/npm/v/react-native-web?label=react-native-web)](https://www.npmjs.com/package/react-native-web)
+[![npm](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/DevVibhor/react-native-bullet-graph/blob/main/CONTRIBUTING.md)
+
+## Gallery 📱
+
+Demo - https://react-native-bullet-graph.web.app/
 
 <table>
   <tr>
-  
 <td>
 <h6>Android</h6>
 <img src='images/react-native-bullet-graph-android.png' width=300 height=650 alt=''/>
@@ -19,10 +26,28 @@ Add customizable bullet graphs to your React Native apps.
 </tr>
 </table>
 
+<table>
+<tr>
+<td>
+<h6>macOS</h6>
+<img src='images/react-native-bullet-graph-macOS.png' width=750 height=450 alt=''/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+<h6>react-native-web</h6>
+<img src='images/react-native-bullet-graph-web.png' width=750 height=430 alt=''/>
+</td>
+</tr>
+</table>
+
 ## Installation 🚀
 
 ```js
-npm install react-native-bullet-graph
+npm i react-native-bullet-graph
 ```
 
 ## Usage
@@ -120,8 +145,8 @@ targetTextColor | `String` | "#000000" | Text color of the target amount shown o
 actualBarColor | `String` | "#a1c181" | Fill color for denoting actual progress value
 actualTextColor | `String` | "#000000" | Text color of the target amount shown on bar
 actualBarHeight | `Number` | 15 | Height of actual bar (Performance Bar)
-lowerBarColor | `String` | "ff595e" | Fill color for the Lower bar (Bad Range)
-mediumBarColor | `String` | "ffca3a" | Fill color for the Medium bar (Satisfactory Range)
+lowerBarColor | `String` | "#ff595e" | Fill color for the Lower bar (Bad Range)
+mediumBarColor | `String` | "#ffca3a" | Fill color for the Medium bar (Satisfactory Range)
 numericSize | `Number` | 12 | Font size of target and actual values
 timelineFontSize | `Number` | 12 | Font size of timeline values
 hideActualValue | `Boolean` | false | Show or hide the actual value shown on bar
@@ -129,6 +154,7 @@ hideTargetValue | `Boolean` | false | Show or hide the target value shown on bar
 numberPrefix | `String` | null | Prefix value to be added to all values
 internationalNumberSystem | `Boolean` | true | 2 or 3 digit comma separator for numeric values
 hideScale | `Boolean` | false | Show or hide range scale
+scaleColor | `String` | "#000000" | Text and bar color of the scale
 
 ## License
 

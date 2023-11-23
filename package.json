@@ -1,8 +1,8 @@
 {
   "name": "react-native-bullet-graph",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Customizable Bullet Graph component for React Native apps.",
-  "main": "src/screens/index.js",
+  "main": "src/screens/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,5 +31,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DevVibhor/react-native-bullet-graph/issues"
-  }
+  },
+  "homepage": "https://react-native-bullet-graph.web.app/"
 }
